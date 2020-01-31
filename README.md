@@ -27,10 +27,26 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+  A token is a string created by a server to give a client access to different api call methods.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+  One way is private routing, which will prevent someone without an authentication token from accessing certain pages. Another is storing tokens and other cookies in redux or context API.
+
 - [ ] Describe how web servers work.
+
+  web servers store data and/or webpages and can deliver them to web clients like programs or web browsers.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
+  The C in CRUD stands for Create and can be mapped to the POST method because it is used to send or write data in an API.
+
+  The R stands for Read and can be mapped to the GET method. This is used for fetching data from an API.
+
+  The U stands for Update and can be mapped to the PUT method which is used to overwrite or replace existing data in an API.
+
+  The D stands for Destroy  and the Delete method foes a good job of doing just that.
 
 ## Project Set Up
 
